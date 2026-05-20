@@ -9,8 +9,6 @@ import { Navigation } from './navigation';
 
 Asset.loadAsync([
   ...NavigationAssets,
-  require('./assets/newspaper.png'),
-  require('./assets/bell.png'),
 ]);
 
 SplashScreen.preventAutoHideAsync();
